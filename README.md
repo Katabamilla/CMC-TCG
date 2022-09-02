@@ -1,2 +1,2 @@
-# Tupper-Card-Game
-a
+# CMC-Card-Game
+this is for fun
