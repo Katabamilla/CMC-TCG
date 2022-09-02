@@ -1,0 +1,8 @@
+Name	Set	ImageFile	Category	Color	Type	Faction	Cost	ATK	HP	TEXT
+RED Mana	mana	redmana	Mana	RED	Basic	Mana	N/A	N/A	N/A	Provides 1 RED Mana.
+GREEN Mana	mana	greenmana	Mana	GREEN	Basic	Mana	N/A	N/A	N/A	Provides 1 GREEN Mana.
+BROWN Mana	mana	brownmana	Mana	BROWN	Basic	Mana	N/A	N/A	N/A	Provides 1 BROWN Mana.
+BLUE Mana	mana	bluemana	Mana	BLUE	Basic	Mana	N/A	N/A	N/A	Provides 1 BLUE  Mana.
+PURPLE Mana	mana	purplemana	Mana	PURPLE	Basic	Mana	N/A	N/A	N/A	Provides 1 PURPLE Mana.
+WHITE Mana	mana	whitemana	Mana	WHITE	Basic	Mana	N/A	N/A	N/A	Provides 1 WHITE Mana.
+Rainbow Mana	mana	rainbowmana	Mana	GRAY	Special	Mana	N/A	N/A	N/A	Provides 1 Mana of every color. [Limit: 1]

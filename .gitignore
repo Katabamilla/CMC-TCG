@@ -1,24 +1,20 @@
-# Compiled class file
-*.class
+#generated files
 
-# Log file
-*.log
+plugins/TupperverseCCG/decks/
+plugins/TupperverseCCG/saved/
+plugins/TupperverseCCG/logs/
+plugins/Tupper2/decks/
+plugins/Tupper2/saved/
+plugins/Tupper2/logs/
+secure/
+*.dek
+recentdecks.txt
+serverlist.txt
+pluginpreferences.txt
+plugins/TupperverseCCG/pluginpreferences.txt
+plugins/TupperverseCCG/sets/setimages/nsfw
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+plugins/TupperEmblem/decks/
+plugins/TupperEmblem/saved/
+plugins/TupperEmblem/logs/
+plugins/TupperEmblem/pluginpreferences.txt

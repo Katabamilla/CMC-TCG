@@ -1,0 +1,141 @@
+<plugin>
+<pluginversion>2.0</pluginversion>
+
+<pluginname>CMCTCG</pluginname>
+
+<playerstat><label>Life Points</label><initialvalue>30</initialvalue></playerstat>
+
+<deckzone>
+	<label>Deck</label>
+	<shuffle>yes</shuffle>
+	<gamezonetoloadto>Deck</gamezonetoloadto>
+</deckzone>
+
+<deckzone>
+	<label>Mana Deck</label>
+	<shuffle>yes</shuffle>
+	<gamezonetoloadto>Mana Deck</gamezonetoloadto>
+</deckzone>
+
+<deckzone>
+	<label>Extra Deck</label>
+	<shuffle>no</shuffle>
+	<gamezonetoloadto>Extra Deck</gamezonetoloadto>
+</deckzone>
+
+<deckzone>
+	<label>Tokens</label>
+	<zonetoloadto>Tokens</zonetoloadto>
+</deckzone>
+
+<deckzone>
+	<label>Spawned Deck</label>
+	<gamezonetoloadto>Spawned Deck</gamezonetoloadto>
+</deckzone>
+
+<deckzone>
+	<label>Side Deck</label>
+	<gamezonetoloadto>Side Deck</gamezonetoloadto>
+</deckzone>
+
+<gamezone>
+	<label>Hand</label>
+	<visibletoowner>yes</visibletoowner>
+	<visibletoothers>no</visibletoothers>
+</gamezone>
+<gamezone>
+	<label>Deck</label>
+	<visibletoowner>no</visibletoowner>
+	<visibletoothers>no</visibletoothers>
+</gamezone>
+<gamezone>
+	<label>Mana Deck</label>
+	<visibletoowner>no</visibletoowner>
+	<visibletoothers>no</visibletoothers>
+</gamezone>
+<gamezone>
+	<label>Graveyard</label>
+	<visibletoowner>yes</visibletoowner>
+	<visibletoothers>yes</visibletoothers>
+</gamezone>
+<gamezone>
+	<label>Removed</label>
+	<visibletoowner>yes</visibletoowner>
+	<visibletoothers>yes</visibletoothers>
+</gamezone>
+<gamezone>
+	<label>Extra Deck</label>
+	<visibletoowner>yes</visibletoowner>
+	<visibletoothers>no</visibletoothers>
+</gamezone>
+<gamezone>
+	<label>Tokens</label>
+	<visibletoowner>yes</visibletoowner>
+	<visibletoothers>no</visibletoothers>
+</gamezone>
+
+<gamezone>
+	<label>Spawned Deck</label>
+	<visibletoowner>yes</visibletoowner>
+	<visibletoothers>no</visibletoothers>
+</gamezone>
+<gamezone>
+	<label>Side Deck</label>
+	<visibletoowner>no</visibletoowner>
+	<visibletoothers>no</visibletoothers>
+</gamezone>
+
+<phase><label>Turn Start</label></phase>
+<phase><label>Normal</label></phase>
+<phase><label>Combat</label></phase>
+<phase><label>NormalTwo</label></phase>
+<phase><label>End</label></phase>
+
+<generalfunction><label>Untap All</label><kind>ALLYOURCARDSMAKERIGHT0DEGREES</kind><includeasbutton>yes</includeasbutton></generalfunction>
+<generalfunction><label>Draw</label><kind>DRAWCARD</kind><includeasbutton>yes</includeasbutton></generalfunction>
+<generalfunction><label>Previous Phase</label><kind>PREVIOUSPHASE</kind><includeasbutton>no</includeasbutton></generalfunction>
+<generalfunction><label>Next Phase</label><kind>NEXTPHASE</kind><includeasbutton>no</includeasbutton></generalfunction>
+<generalfunction><label>Roll</label><kind>ROLLD6</kind><includeasbutton>yes</includeasbutton></generalfunction>
+
+<generalfunction>
+		<label>Play Mana</label>
+	<kind>TRANSFERCARD</kind>
+	<includeasbutton>yes</includeasbutton><
+		<sourceowner>performer</sourceowner>
+		<sourcegamezone>Mana Deck</sourcegamezone>
+		<sourceposition>top</sourceposition>
+		<destinationowner>table</destinationowner>
+		<destinationposition>faceup</destinationposition>
+	 </generalfunction>
+
+<generalfunction><label>Spawn Card</label><kind>SPAWNCARD</kind><includeasbutton>yes</includeasbutton></generalfunction>
+<generalfunction><label>Next Turn</label><kind>NEXTTURN</kind><includeasbutton>no</includeasbutton></generalfunction>
+<generalfunction><label>Roll D20</label><kind>ROLLD20</kind><includeasbutton>no</includeasbutton></generalfunction>
+<generalfunction><label>Previous Turn</label><kind>PEREVIOUSTURN</kind><includeasbutton>no</includeasbutton></generalfunction>
+<generalfunction><label>Flip Coin</label><kind>FLIPCOIN</kind><includeasbutton>no</includeasbutton></generalfunction>
+
+<cardfunction><label>Untap</label><kind>MAKERIGHT0DEGREES</kind><includeasbutton>yes</includeasbutton></cardfunction>
+<cardfunction><label>Tap</label><kind>MAKERIGHT90DEGREES</kind><includeasbutton>yes</includeasbutton></cardfunction>
+<cardfunction><label>HP-1</label><kind>REMOVECOUNTERRED</kind><includeasbutton>yes</includeasbutton></cardfunction>
+<cardfunction><label>HP+1</label><kind>ADDCOUNTERRED</kind><includeasbutton>yes</includeasbutton><PositionX>1.0</PositionX><PositionY>.04</PositionY></cardfunction>
+<cardfunction><label>Atk-1</label><kind>REMOVECOUNTERBLUE</kind><includeasbutton>yes</includeasbutton></cardfunction>
+<cardfunction><label>Atk+1</label><kind>ADDCOUNTERBLUE</kind><includeasbutton>yes</includeasbutton><PositionX>.10</PositionX><PositionY>.04</PositionY></cardfunction>
+<cardfunction><label>Cost-1</label><kind>REMOVECOUNTERINDIGO</kind><includeasbutton>yes</includeasbutton></cardfunction>
+<cardfunction><label>Cost+1</label><kind>ADDCOUNTERINDIGO</kind><includeasbutton>yes</includeasbutton><PositionX>0</PositionX><PositionY>.85</PositionY></cardfunction>
+<cardfunction><label>SPELL-1</label><kind>REMOVECOUNTERVIOLET</kind><includeasbutton>yes</includeasbutton></cardfunction>
+<cardfunction><label>SPELL+1</label><kind>ADDCOUNTERVIOLET</kind><includeasbutton>yes</includeasbutton><PositionX>0</PositionX><PositionY>.5</PositionY></cardfunction>
+<cardfunction><label>Freeze-1</label><kind>REMOVECOUNTERWHITE</kind><includeasbutton>yes</includeasbutton></cardfunction>
+<cardfunction><label>Freeze+1</label><kind>ADDCOUNTERWHITE</kind><includeasbutton>yes</includeasbutton><PositionX>0.95</PositionX><PositionY>.95</PositionY></cardfunction>
+
+<cardfunction><label>Edit Note</label><kind>EDITNOTE</kind><includeasbutton>yes</includeasbutton><PositionX>.4</PositionX><PositionY>.95</PositionY></cardfunction>
+<cardfunction><label>Turn Over</label><kind>TURNOVER</kind><includeasbutton>yes</includeasbutton></cardfunction>
+<cardfunction><label>Doesn't Untap</label><kind>TOGGLETURNALLIMMUNITY</kind><includeasbutton>no</includeasbutton></cardfunction>
+<cardfunction><label>Take Control</label><kind>CHANGEOWNER</kind><includeasbutton>yes</includeasbutton></cardfunction>
+<cardfunction><label>Hover</label><kind>HOVER</kind><includeasbutton>yes</includeasbutton></cardfunction>
+<cardfunction><label>Clone</label><kind>CLONE</kind><includeasbutton>yes</includeasbutton></cardfunction>
+<cardfunction><label>Clear</label><kind>CLEARCARD</kind><includeasbutton>yes</includeasbutton></cardfunction>
+
+<definition><kind>ISYOURFACEDOWNVISIBLE</kind></definition>
+<definition><kind>ISALLOWINGMULTIPLECARDBACKS</kind></definition>
+<definition><kind>BACKVISIBILITY</kind><value>BACKVISIBILITYHIDEBACKINZONES</value></definition>
+</plugin>

@@ -1,0 +1,1 @@
+Name	Set	ImageFile	Category	Color	Type	Faction	Cost	ATK	HP	TEXT
