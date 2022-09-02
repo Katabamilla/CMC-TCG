@@ -1,20 +1,11 @@
 #generated files
 
-plugins/TupperverseCCG/decks/
-plugins/TupperverseCCG/saved/
-plugins/TupperverseCCG/logs/
-plugins/Tupper2/decks/
-plugins/Tupper2/saved/
-plugins/Tupper2/logs/
+plugins/CMCTCG/decks/
+plugins/CMCTCG/saved/
+plugins/CMCTCG/logs/
 secure/
 *.dek
 recentdecks.txt
 serverlist.txt
 pluginpreferences.txt
-plugins/TupperverseCCG/pluginpreferences.txt
-plugins/TupperverseCCG/sets/setimages/nsfw
-
-plugins/TupperEmblem/decks/
-plugins/TupperEmblem/saved/
-plugins/TupperEmblem/logs/
-plugins/TupperEmblem/pluginpreferences.txt
+plugins/CMCTCG/pluginpreferences.txt
