@@ -1,0 +1,4 @@
+Name	Set	ImageFile	Category	Color	Type	Faction	Cost	ATK	HP	TEXT
+Sub Zero	core	Subzero	Unit	BLUE	Warrior	Lin-Kuei	4	3	3	Immune to [Frozen] OPT: You can target an opponent Unit and pay up to 2 BLUE Mana: Inflict stacks of [Freeze] equal to Mana paid. This unit deals 1 additional damage to [Frozen] Units in combat. If this Unit is burned, double the amount of stacks are removed from it each turn.
+Scorpion	core	Scorpion	Unit	RED	Warrior	Shirai-Ryu	4	3	3	Immune to [Burned] OPT: You can target an opponent Unit and pay up to 2 RED Mana: Inflict stacks of [Burn] equal to Mana paid. This unit deals 1 additional damage to [Burned] Units in combat. If this Unit is frozen, double the amount of stacks are removed from it each turn.
+Jevil	core	Jevil	Unit	PURPLE	Magician	Dark World	3	3	2	OPT: You may pay 1 PURPLE Mana, target an opponent Unit: Inflict [Confusion] on it, and if you do, draw 1 card. If you control this Unit after 5 of your turns have passed, you can [Spin] it.

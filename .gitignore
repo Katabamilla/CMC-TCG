@@ -1,7 +1,7 @@
 #generated files
 
-plugins/CMCTCG/decks/
 plugins/CMCTCG/saved/
+plugins/CMCTCG/decks/
 plugins/CMCTCG/logs/
 secure/
 *.dek
